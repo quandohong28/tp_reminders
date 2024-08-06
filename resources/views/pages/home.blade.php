@@ -1,3 +1,8 @@
-<div>
-    <!-- Knowing is not enough; we must apply. Being willing is not enough; we must do. - Leonardo da Vinci -->
-</div>
+@extends('layouts.main')
+
+@section('content')
+    <div>
+        @livewire('calendar')
+    </div>
+    hello
+@endsection
